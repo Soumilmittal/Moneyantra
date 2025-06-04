@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import Homepage from './pages/landing_page/home/Homepage.jsx'
 
 function App() {
   return (
-    <div className='text-amber-400'>
-      Moneyantra 2
+    <div>
+      <Homepage/>
     </div>
   )
 }
